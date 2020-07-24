@@ -112,7 +112,7 @@ public class BaseClass extends ExtentReportsDemo {
 	@DataProvider(name = "RegData")
 	public Object[][] getData(){
 			
-			String excelPath = "E:\\JavaProjects\\AppiumDemoProject\\Excel\\Data.xlsx";
+			String excelPath = "C:\\Users\\Neelanjan Basu\\git\\nbappiumpriject\\AppiumDemoProject\\Excel\\Data.xlsx";
 			
 			Object data[][]= testData(excelPath, "Sheet1");
 			
@@ -123,7 +123,7 @@ public class BaseClass extends ExtentReportsDemo {
 	@DataProvider(name = "RegData2")
 	public Object[][] getData2(){
 			
-			String excelPath = "E:\\JavaProjects\\AppiumDemoProject\\Excel\\Data.xlsx";
+			String excelPath = "C:\\Users\\Neelanjan Basu\\git\\nbappiumpriject\\AppiumDemoProject\\Excel\\Data.xlsx";
 			
 			Object data[][]= testData(excelPath, "Sheet2");
 			
@@ -134,7 +134,7 @@ public class BaseClass extends ExtentReportsDemo {
 	@DataProvider(name = "RegData3")
 	public Object[][] getData3(){
 			
-			String excelPath = "E:\\JavaProjects\\AppiumDemoProject\\Excel\\Data.xlsx";
+			String excelPath = "C:\\Users\\Neelanjan Basu\\git\\nbappiumpriject\\AppiumDemoProject\\Excel\\Data.xlsx";
 			
 			Object data[][]= testData(excelPath, "Sheet3");
 			

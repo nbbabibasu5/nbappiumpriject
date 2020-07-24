@@ -5,9 +5,11 @@
     <classes>
       <class name="tests.Tests">
         <methods>
-          <include name="newusercreateteam" invocation-numbers="0"/>
+          <include name="reportTeardown"/>
           <include name="teardown"/>
+          <include name="reportSetup"/>
           <include name="setup"/>
+          <include name="loginlogout"/>
         </methods>
       </class> <!-- tests.Tests -->
     </classes>
